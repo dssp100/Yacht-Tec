@@ -14,13 +14,14 @@ body{
 }
 
 nav{
-	background: #333;
+	background: rgba(31, 88, 141, 1.000);
 }
 
 nav ul {
 	list-style-type: none;
 	padding: 0;
 }
+
 nav a{
   text-decoration: none;
   text-align: center;
@@ -28,8 +29,9 @@ nav a{
   display: block;
   padding: 10px;
 }
+
 nav a:Hover{
-  background-color: #555;
+  background-color: rgba(26, 35, 39, 1.000);
 }
 
 /* social based styles */
@@ -38,21 +40,26 @@ a.tw {
   background: url(./resources/img/tw.png) no-repeat center;
   background-size: 80%;
 }
+
 a.fb {
   background: url(./resources/img/fb.png) no-repeat center;
   background-size: 80%;
 }
+
 .social a {
   text-indent: -10000px;
 }
+
 .social {
   max-width: 80px;
   margin: 0 auto;
 }
+
 nav ul.social {
   flex: 1 1 0;
   display: flex;
 }
+
 nav ul.social li{
   flex: 1 1 0;
 }
@@ -62,12 +69,13 @@ nav ul.social li{
 nav ul.social {
   flex: 1 1 0;
 }
+
 .container{
   display: flex;
 }
+
 a.main-img {
   flex: 1 1 0;
-
 }
 
 @media screen and (min-width: 800px) {
@@ -80,28 +88,16 @@ a.main-img {
     flex: 1 1 0;
   }
 
-  nav{
+  nav {
     display: flex;
     justify-content: space-between;
-  }
-
-  div img {
-    height: auto;
-    width: auto;
-    /* max-width: 960px; */
-    max-height: auto;
   }
 
   .social {
     margin: 0;
   }
 
-  .container{
+  .container {
     display: flex;
     justify-content: center;
-
-  }
-
-  a.main-img {
-
   }
